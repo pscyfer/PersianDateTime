@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{43337646-8E29-4379-8D65-A151C3AD5722}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersianDateTime", "src\PersianDateTime\PersianDateTime.csproj", "{B1CF69E1-9D41-43A6-B57F-7FCACEAA4F3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1CF69E1-9D41-43A6-B57F-7FCACEAA4F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CF69E1-9D41-43A6-B57F-7FCACEAA4F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CF69E1-9D41-43A6-B57F-7FCACEAA4F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CF69E1-9D41-43A6-B57F-7FCACEAA4F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1CF69E1-9D41-43A6-B57F-7FCACEAA4F3A} = {43337646-8E29-4379-8D65-A151C3AD5722}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8F37B4F-EFA3-418A-B6AA-981A91D883F9}
+	EndGlobalSection
+EndGlobal
