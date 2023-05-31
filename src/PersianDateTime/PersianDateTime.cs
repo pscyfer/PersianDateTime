@@ -105,6 +105,7 @@ namespace System
         }
     }
 
+
     public enum PersianDayOfWeek
     {
         یکشنبه = 0,
@@ -115,7 +116,6 @@ namespace System
         جمعه = 5,
         شنبه = 6
     }
-
     public enum PersianMonth
     {
         فروردین = 1,
