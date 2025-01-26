@@ -5,6 +5,10 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersianDateTime", "PersianDateTime\PersianDateTime.csproj", "{93A99436-2827-41E8-83D6-256DB6424D70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersianDateTime.Test", "PersianDateTime.Test\PersianDateTime.Test.csproj", "{60E8915A-A4DF-43DF-9832-93D819A383BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersianDate.Blazor", "PersianDate.Blazor\PersianDate.Blazor.csproj", "{1C956ED4-61BB-466F-A789-DDBF5FF39555}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{93A99436-2827-41E8-83D6-256DB6424D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93A99436-2827-41E8-83D6-256DB6424D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93A99436-2827-41E8-83D6-256DB6424D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E8915A-A4DF-43DF-9832-93D819A383BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E8915A-A4DF-43DF-9832-93D819A383BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E8915A-A4DF-43DF-9832-93D819A383BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E8915A-A4DF-43DF-9832-93D819A383BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C956ED4-61BB-466F-A789-DDBF5FF39555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C956ED4-61BB-466F-A789-DDBF5FF39555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C956ED4-61BB-466F-A789-DDBF5FF39555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C956ED4-61BB-466F-A789-DDBF5FF39555}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

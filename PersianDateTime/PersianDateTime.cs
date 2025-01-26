@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Reflection;
 using System.Text;
 
-namespace PersianDateTime;
+namespace Persian.Date;
 
 public readonly struct PersianDateTime : IComparable, IComparable<PersianDateTime>, IEquatable<PersianDateTime>
 {
