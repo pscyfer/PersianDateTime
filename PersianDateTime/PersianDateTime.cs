@@ -298,8 +298,9 @@ public enum PersianDayOfWeek
     CharChange,
     [Display(Name = "پنجشنبه")]
     Panjshanbe,
-    جمعه,
     [Display(Name = "جمعه")]
+    جمعه,
+    [Display(Name = "شنبه")]
     Shanbe
 }
 public enum PersianMonth
