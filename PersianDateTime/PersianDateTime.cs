@@ -299,7 +299,7 @@ public enum PersianDayOfWeek
     [Display(Name = "پنجشنبه")]
     Panjshanbe,
     [Display(Name = "جمعه")]
-    جمعه,
+    Jome,
     [Display(Name = "شنبه")]
     Shanbe
 }
