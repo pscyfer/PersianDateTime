@@ -18,20 +18,20 @@ public readonly struct PersianDateTime : IComparable, IComparable<PersianDateTim
     {
         dateData = dateTime >= MinValue ? dateTime : MinValue;
 
-        TimeOfDay = dateData.TimeOfDay;
-        Kind = dateData.Kind;
-        Ticks = dateData.Ticks;
-        Nanosecond = dateData.Nanosecond;
+        TimeOfDay   = dateData.TimeOfDay;
+        Kind        = dateData.Kind;
+        Ticks       = dateData.Ticks;
+        Nanosecond  = dateData.Nanosecond;
         Microsecond = dateData.Microsecond;
         Millisecond = dateData.Millisecond;
-        Second = dateData.Second;
-        Minute = dateData.Minute;
-        Hour = dateData.Hour;
-        TimePeriod = Hour < 12 ? "قبل از ظهر" : "بعد از ظهر";
-        Day = persianCalendar.GetDayOfMonth(dateData);
-        Month = persianCalendar.GetMonth(dateData);
-        Year = persianCalendar.GetYear(dateData);
-        DayOfWeek = (PersianDayOfWeek)(int)dateData.DayOfWeek;
+        Second      = dateData.Second;
+        Minute      = dateData.Minute;
+        Hour        = dateData.Hour;
+        TimePeriod  = Hour < 12 ? "قبل از ظهر" : "بعد از ظهر";
+        Day         = persianCalendar.GetDayOfMonth(dateData);
+        Month       = persianCalendar.GetMonth(dateData);
+        Year        = persianCalendar.GetYear(dateData);
+        DayOfWeek   = (PersianDayOfWeek)(int)dateData.DayOfWeek;
         MonthOfYear = (PersianMonth)Month;
     }
     public PersianDateTime() : this(MinValue) { }

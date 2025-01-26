@@ -1,8 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>Persian.DateTime</PackageId>
+		<Version>2.0.0</Version>
+		<Authors>Indymous</Authors>
+		<Description>The PersianDateTime struct is a custom replacement for System.DateTime in C#, tailored for the Jalali (Persian) calendar. It offers enhanced usability, formatting, and calculations while ensuring Gregorian calendar compatibility.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/pscyfer/PersianDateTime</RepositoryUrl>
+	</PropertyGroup>
 
 </Project>
